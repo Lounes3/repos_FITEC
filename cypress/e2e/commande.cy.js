@@ -14,6 +14,7 @@ describe('test codepromo', () => {
         const message_nettoyee=message.replace('/\s+/g',' ').trim()
         cy.log(message_nettoyee)
         expect(message_nettoyee).to.equal('Coupon code applied successfully.')
+        cy.log ('ligne ajoutée')
         })
    
       })
