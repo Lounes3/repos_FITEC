@@ -4,7 +4,8 @@
   "description": "continuité de test",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+"terminal":"npx cypress run"
   },
   "author": "groupe 2",
   "license": "ISC",
