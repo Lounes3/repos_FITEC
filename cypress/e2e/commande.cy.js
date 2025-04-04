@@ -15,6 +15,7 @@ describe('test codepromo', () => {
         cy.log(message_nettoyee)
         expect(message_nettoyee).to.equal('Coupon code applied successfully.')
         cy.log ('ligne ajoutée')
+        cy.log('deuxième ligne')
         })
    
       })
