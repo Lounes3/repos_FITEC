@@ -1,0 +1,14 @@
+{
+  "name": "projet_devops",
+  "version": "1.0.0",
+  "description": "continuité de test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "groupe 2",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
